@@ -1,0 +1,9 @@
+examplelicensesissue
+
+my-licenses/
+
+**.DS_Store
+
+.idea/
+
+vendor/
