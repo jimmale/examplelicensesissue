@@ -9,12 +9,12 @@ cd $GOPATH/src/github.com/jimmale/examplelicensesissue/
 
 # Manually storing the license for *this* repo. Ideally, go-licenses should be doing this for me. 
 mkdir -p my-licenses/github.com/jimmale/examplelicensesissue/
-cp ./LICENSE my-licenses/github.com/jimmale/examplelicensesissue/
+cp ./LICENSE my-licenses/github.com/jimmale/examplelicensesissue/LICENSE
 
 # Manually storing the license for the logrus dependency. Ideally, go-licenses should be doing this for me. 
 go mod vendor 
 mkdir -p my-licenses/github.com/sirupsen/logrus/
-cp ./vendor/github.com/sirupsen/logrus/LICENSE my-licenses/github.com/sirupsen/logrus/
+cp ./vendor/github.com/sirupsen/logrus/LICENSE my-licenses/github.com/sirupsen/logrus/LICENSE
 
 # Build and run
 go build .
